@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Statistics</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h1>Country Statistics</h1>
+  
+  <form id="searchForm">
+    <input type="text" id="searchInput" placeholder="Search for a country">
+    <button type="button" id="searchButton">Search</button>
+    <button type="button" id="allButton">ALL</button>
+  </form>
+  
+  <!-- <div id="results">
+    <h2>Results</h2>
+    <div id="statistics"></div> -->
+    <table id="countriesTable">
+      <thead>
+        <tr>
+          <th>Country Name</th>
+          <th>Population</th>
+          <th>Region</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <div id="statistics"></div>
+    <table id="regionTable">
+      <thead>
+        <tr>
+          <th>Region</th>
+          <th>Number of Countries</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="assets/JS/app.js"></script> </body>
+</html>
